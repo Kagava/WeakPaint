@@ -25,7 +25,7 @@
 		<NumericUpDown Minimum="1" Value="1" Grid.Column="1" Grid.Row="5" Name="numericUpDownStroke" Text="{Binding $parent[Window].DataContext.GetSetGaugeEllipse}" >
 		</NumericUpDown>
 		<TextBlock Text="Цвет заливки:" Grid.Column="0" Grid.Row="6"/>
-		<ComboBox Grid.Column="1" Grid.Row="6" SelectedItem="{Binding $parent[Window].DataContext.MCInside}" Items="{Binding $parent[Window].DataContext.Solors}" Name="ComboBoxColorInside" Name="comboBoxFillColor">
+		<ComboBox Grid.Column="1" Grid.Row="6" SelectedItem="{Binding $parent[Window].DataContext.MCInside}" Items="{Binding $parent[Window].DataContext.Solors}" Name="comboBoxFillColor">
 			<ComboBox.ItemTemplate>
 				<DataTemplate>
 					<Rectangle Fill="{Binding Color}" Width="30" Height="20"/>
